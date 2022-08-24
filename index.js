@@ -37,11 +37,8 @@ const [moo, neigh, baa, oink, cluck] = farmAnimalsArr;
 let removeHorse = farmAnimalsArr.splice(1, 1);
 const [bessie, dolly, babe, little] = farmAnimalsArr;
 
-
 // 3. Little the chicken had to go back to the coop, so now we're left with three. Let's use color variables of blackAndWhite, black, and pink.
 const [blackAndWhite, black, pink] = farmAnimalsArr;
-
-
 
 
 // Arrays
@@ -56,8 +53,6 @@ const [r, o, y, g, b, i, v] = colors;
 const [, , , , , indg] = colors
 
 
-
-
 // Objects
 
 // 7. Use destructuring to assign all variables using the keys as the variable names
@@ -65,5 +60,4 @@ const {muppetName, color, job, partner, song} = muppet;
 
 // 8. Use destructuring to assign songs 2 and 4, and Kermit's job and partnerconst {nestedJob, nestedPartner} =  nestedMuppet;
 const {nestedJob, nestedPartner} =  nestedMuppet;
-
 const {song2, song4} =  nestedMuppet.album.theMuppetMovie;
